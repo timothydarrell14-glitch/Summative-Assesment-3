@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import { productContext } from './productContext'
+import { productContext } from './ProductContext'
 import { productData } from '../../functions'
 
 export const ProductProvider = ({children}) => {
