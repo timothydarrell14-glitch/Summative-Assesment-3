@@ -8,8 +8,11 @@ export const Landing = () => {
 
             <h1>Welcome to This Page</h1>
             <div id="buttons">
-                <button onClick={() => navigate('/Home')}>Home</button>
-                <button onClick={() => navigate('/About')}>About</button>
+                <nav>
+                    <button title ="Home" onClick={() => navigate('/Home')}><label>Home</label></button>
+                    <button title="About" onClick={() => navigate('/About')}>About</button>
+                    <button title="Admin Portal" onClick={() => navigate('/AdminPortal')}>Admin Portal</button>
+                </nav>
             </div>
         </main>
     )

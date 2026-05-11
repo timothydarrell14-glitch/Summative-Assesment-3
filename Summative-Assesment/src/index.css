@@ -13,6 +13,18 @@
     display: flex;
     gap: 1rem;
     margin-top: 20px;
+    background-color: white;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 50px;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px; 
 }
 
 #ab-img1{
