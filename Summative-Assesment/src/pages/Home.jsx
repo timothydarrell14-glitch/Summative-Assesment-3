@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 
 export const Home = () => {
@@ -9,9 +9,9 @@ export const Home = () => {
                     <h2>Brand Name</h2>
                 </div>
                 <div>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact Us</a>
+                    <Link to="/">Landing</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/adminPortal">AdminPortal</Link>
                 </div>
             </header>
             <main>
@@ -19,7 +19,6 @@ export const Home = () => {
                     <img src="#"></img>
                     <h1>Product Cards</h1>
                 </div>
-                
             </main>
         </>
     )
